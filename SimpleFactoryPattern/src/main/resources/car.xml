@@ -1,0 +1,14 @@
+<cars>
+	<driver2>
+		<name>Land Rover</name>
+	</driver2>
+	<factory1>
+		<name>BMW</name>
+	</factory1>
+	<factory2>
+		<class>com.jasongj.product.BenzCar</class>
+	</factory2>
+	<factory3>
+		<type>BMW</type>
+	</factory3>
+</cars>
