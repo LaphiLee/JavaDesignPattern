@@ -17,5 +17,6 @@ include 'services:webservice'
 */
 
 include 'SimpleFactoryPattern'
+include 'FactoryMethodPattern'
 
 rootProject.name = 'JavaDesignPattern'
