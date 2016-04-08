@@ -23,7 +23,7 @@ public class JDBC {
 			LOG.warn("Execute query failed", ex);
 		} catch(ClassNotFoundException e) {
 			LOG.warn("Load Hive driver failed", e);
-		}finally{
+		} finally{
 			if(conn != null ){
 				try {
 					conn.close();

@@ -43,7 +43,8 @@ subprojects {
         'org.apache.logging.log4j:log4j-core:2.5',
         'org.slf4j:slf4j-api:1.7.19',
         'org.apache.logging.log4j:log4j-slf4j-impl:2.5',
-        'org.reflections:reflections:0.9.10'
+        'org.reflections:reflections:0.9.10',
+        'org.apache.commons:commons-lang3:3.4'
     )
     // Non-maven dependencies
     ext.jarTree = fileTree(dir: 'libs', include: '**/*.jar')
