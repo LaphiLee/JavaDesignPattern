@@ -20,5 +20,7 @@ include 'SimpleFactoryPattern'
 include 'FactoryMethodPattern'
 include 'AbstractFactoryPattern'
 include 'ObserverPattern'
+include 'CompositePattern'
+include 'ProxyAndDecoratorPattern'
 
 rootProject.name = 'JavaDesignPattern'

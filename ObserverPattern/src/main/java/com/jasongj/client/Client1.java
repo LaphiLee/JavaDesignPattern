@@ -18,6 +18,7 @@ public class Client1 {
     subject.addTalent(juniorEngineer);
     subject.addTalent(seniorEngineer);
     subject.addTalent(architect);
+    
     subject.publishJob("Top 500 big data position");
   }
 
