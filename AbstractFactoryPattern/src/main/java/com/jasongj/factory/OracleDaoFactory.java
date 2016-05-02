@@ -1,11 +1,11 @@
 package com.jasongj.factory;
 
+import com.jasongj.dao.product.IProductDao;
+import com.jasongj.dao.product.OracleProductDao;
 import com.jasongj.dao.role.IRoleDao;
 import com.jasongj.dao.role.OracleRoleDao;
 import com.jasongj.dao.user.IUserDao;
 import com.jasongj.dao.user.OracleUserDao;
-import com.jasongj.dao.user.product.IProductDao;
-import com.jasongj.dao.user.product.OracleProductDao;
 
 public class OracleDaoFactory implements IDaoFactory {
 

@@ -1,8 +1,8 @@
 package com.jasongj.factory;
 
+import com.jasongj.dao.product.IProductDao;
 import com.jasongj.dao.role.IRoleDao;
 import com.jasongj.dao.user.IUserDao;
-import com.jasongj.dao.user.product.IProductDao;
 
 public interface IDaoFactory {
 

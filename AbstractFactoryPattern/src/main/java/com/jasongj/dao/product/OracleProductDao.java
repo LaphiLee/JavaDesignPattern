@@ -1,4 +1,4 @@
-package com.jasongj.dao.user.product;
+package com.jasongj.dao.product;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

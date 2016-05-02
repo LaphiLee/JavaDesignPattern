@@ -1,11 +1,11 @@
 package com.jasongj.factory;
 
+import com.jasongj.dao.product.IProductDao;
+import com.jasongj.dao.product.PostgreSQLProductDao;
 import com.jasongj.dao.role.IRoleDao;
 import com.jasongj.dao.role.PostgreSQLRoleDao;
 import com.jasongj.dao.user.IUserDao;
 import com.jasongj.dao.user.PostgreSQLUserDao;
-import com.jasongj.dao.user.product.IProductDao;
-import com.jasongj.dao.user.product.PostgreSQLProductDao;
 
 public class PostgreSQLDaoFactory implements IDaoFactory {
 
