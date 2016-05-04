@@ -22,5 +22,6 @@ include 'AbstractFactoryPattern'
 include 'ObserverPattern'
 include 'CompositePattern'
 include 'ProxyAndDecoratorPattern'
+include 'DynamicProxy'
 
 rootProject.name = 'JavaDesignPattern'

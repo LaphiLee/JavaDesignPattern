@@ -1,0 +1,9 @@
+
+apply plugin: 'java'
+
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+    compile 'cglib:cglib:3.2.2'
+    compile 'commons-io:commons-io:2.5'
+}
