@@ -26,5 +26,6 @@ include 'DynamicProxy'
 include 'AdapterPattern'
 include 'BridgePattern'
 include 'SingletonPattern'
+include 'FlyweightPattern'
 
 rootProject.name = 'JavaDesignPattern'
