@@ -27,5 +27,6 @@ include 'AdapterPattern'
 include 'BridgePattern'
 include 'SingletonPattern'
 include 'FlyweightPattern'
+include 'StrategyPattern'
 
 rootProject.name = 'JavaDesignPattern'
