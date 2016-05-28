@@ -43,7 +43,7 @@ public class CarFactory3 {
 		}
 
 		if (allCars.containsKey(type)) {
-			LOG.info("created car type is {}", type);
+			LOG.info("Created car type is {}", type);
 			try {
 				car = (Car) allCars.get(type).newInstance();
 			} catch (InstantiationException | IllegalAccessException ex) {
