@@ -11,7 +11,7 @@ public class SimpleContext {
   }
   
   public void action(String input) {
-    strategy.stragety(input);
+    strategy.strategy(input);
   }
   
 }

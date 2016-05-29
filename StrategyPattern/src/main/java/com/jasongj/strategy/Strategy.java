@@ -2,6 +2,6 @@ package com.jasongj.strategy;
 
 public interface Strategy {
 
-  void stragety(String input);
+  void strategy(String input);
 
 }

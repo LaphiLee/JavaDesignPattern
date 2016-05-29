@@ -9,7 +9,7 @@ public class ConcreteStrategyB implements Strategy {
   private static final Logger LOG = LoggerFactory.getLogger(ConcreteStrategyB.class);
 
   @Override
-  public void stragety(String input) {
+  public void strategy(String input) {
     LOG.info("Strategy B for input : {}", input);
   }
 

@@ -57,7 +57,7 @@ public class SimpleFactoryContext {
   }
 
   public void action(String input) {
-    strategy.stragety(input);
+    strategy.strategy(input);
   }
 
 }
