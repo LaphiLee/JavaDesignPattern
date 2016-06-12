@@ -2,7 +2,7 @@ package com.jasongj.singleton4;
 
 public class Singleton {
 
-  private static Singleton INSTANCE;
+  private static volatile Singleton INSTANCE;
 
   private Singleton() {};
 
